@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-            <title> {% block title %}  {% endblock %} </title>        
+            <title> Baxter Travel</title>        
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -18,17 +18,17 @@
         />
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     </head>
-
     <body>
         <header>
-
         </header>
         <main>
-            {% block content %}
-            {% endblock %}
         </main>
         <footer>
-            {% include 'layout/footer.html' %}
+            <div class="Footer">
+                <p>Baxter Travel LTD</p>
+                <p>0131 663 1389</p>
+                <p>4 High Street, Bonnyrigg, EH19 2AA, United Kingdom</p>
+            </div>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
