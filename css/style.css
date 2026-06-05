@@ -42,8 +42,44 @@ body {
 	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
+.NavButton{
+    background-color: #fdb812;
+    font-size: 25px;
+	font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    color: #1a3d93;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
 .tag{
     font-size: 36px;
+}
+
+nav{
+
+}
+
+.ContactHeading{
+    padding: 40px;
+}
+
+.Facebook{
+    text-align: right;
+}
+
+.Facebook:hover {
+	transform: translateY(-4px);
+	color: #1a3d93;
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+a{
+        text-decoration: none;
+}
+
+p{
+    font-size: 22px;
 }
 
 @media (max-width: 768px) {
