@@ -1,6 +1,7 @@
 body {
     background-color: #ffffff; 
     overflow-x: hidden;
+    font-family: Georgia, serif;
 }
 
 .logo{
@@ -9,7 +10,7 @@ body {
 }
 
 .tag{
-    font-family: lobster;
+    font-size: 36px;
 }
 
 .Footer{
@@ -52,10 +53,6 @@ body {
     transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.tag{
-    font-size: 36px;
-}
-
 .est{
     font-size: 18px;
 }
@@ -80,13 +77,16 @@ a{
 }
 
 .ContactCardHeader{
-    background-color: #f7f1da;
+    background-color: #f1e4bf;
     border-radius: 5px;
     color: black;
     padding: 20px;
     margin: 40px 10px 40px 10px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 6px 15px #000000;
+}
 
+.ContactCard {
+    height: 100%;
 }
 
 p{
