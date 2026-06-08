@@ -38,7 +38,7 @@ body {
 .button:hover {
 	background-color: #ffd26a;
 	transform: translateY(-4px);
-		color: #1a3d93;
+	color: #1a3d93;
 	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
@@ -56,6 +56,10 @@ body {
     font-size: 36px;
 }
 
+.est{
+    font-size: 18px;
+}
+
 nav{
 
 }
@@ -65,10 +69,9 @@ nav{
 }
 
 .Facebook{
-    text-align: right;
-    width: 75px;
-    height: 75px;    
-    padding: 5px;
+    max-width: 100px;
+    width: 100%;
+    height: auto;
     transition: transform 0.2s ease;
 }
 
@@ -81,19 +84,26 @@ a{
 }
 
 
+
 p{
     font-size: 22px;
 }
 
 @media (max-width: 768px) {
     .tag{
-    font-size: 24px;
+        font-size: 24px;
+    }
+    .est{
+        font-size: 14px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .tag{
-    font-size: 18px;
+        font-size: 18px;
+    }
+    .est{
+        font-size: 11px;
     }
 }
 
