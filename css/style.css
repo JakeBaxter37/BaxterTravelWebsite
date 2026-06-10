@@ -26,6 +26,13 @@ body {
     color:#ffffff;
 }
 
+.ContactBackground{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/beach.jpg') center/cover;
+    color:#ffffff;
+    background-attachment: fixed;
+}
+
 .button {
 	background-color: #fdb812;
     font-size: 25px;
@@ -87,10 +94,17 @@ a{
 
 .ContactCard {
     height: 100%;
+    margin: 0px 10px 0px 10px;
 }
 
 p{
     font-size: 22px;
+}
+
+.emails{
+    word-break: break-all;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .Footer{
