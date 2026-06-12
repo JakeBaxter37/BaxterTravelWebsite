@@ -63,13 +63,15 @@ body {
     padding: 20px;
     margin: 20px;
     color: #1a3d93;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
     transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button:hover {
 	background-color: #ffd26a;
 	transform: translateY(-4px);
-	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    color: #1a3d93;
+	box-shadow: 0 6px 15px #000000;
 }
 
 .NavButton{
@@ -144,12 +146,6 @@ body {
     overflow-y: auto;
     line-height: 1.5;
 }
-
-.address{
-    color: #4000ff;
-    text-decoration: underline;
-}
-
 
 .carousel-item {
     height: 250px;
