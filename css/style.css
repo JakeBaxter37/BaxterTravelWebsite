@@ -12,14 +12,19 @@ body {
 }
 
 .navbar.scrolled {
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    box-shadow: 0 6px 15px #000000;
 }
 
 .logo{
     height: 80%;
     width: 80%;
+}
+
+.icon{
+    height: 100%;
+    width: 100%;
 }
 
 .stars{
@@ -34,7 +39,7 @@ body {
 .Footer{
     text-align: center;
     color: white;
-    background-color: rgb(22, 23, 26); 
+    background-color: #121111; 
     padding: 10px;
 }
 
@@ -64,18 +69,24 @@ body {
 .button:hover {
 	background-color: #ffd26a;
 	transform: translateY(-4px);
-	color: #1a3d93;
 	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
 .NavButton{
-    background-color: #fdb812;
-    font-size: 25px;
+    background-color: #ead499;
+    font-size: 18px;
 	font-weight: bold;
-    padding: 20px;
-    margin: 20px;
-    color: #1a3d93;
-    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 10px;
+    margin: 10px;
+    color: #000000;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.NavButton:hover {
+	background-color: #ead499;
+	transform: translateY(-4px);
+	box-shadow: 0 6px 15px #000000;
 }
 
 .est{
@@ -90,16 +101,14 @@ body {
     max-width: 100px;
     width: 100%;
     height: auto;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .Facebook:hover {
 	transform: translateY(-7px);
 }
 
-a{
-    text-decoration: none;
-}
+
 
 .ContactCardHeader{
     background-color: #f1e4bf;
@@ -120,14 +129,27 @@ a{
     margin: 40px 10px 40px 10px;
 }
 
+.OpeningHeader{
+        height: 138px;
+}
+
 .ReviewHeading{
     padding: 20px;
 }
 
 .ReviewText{
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-height: 9.5rem; 
+    overflow-y: auto;
+    line-height: 1.5;
 }
+
+.address{
+    color: #4000ff;
+    text-decoration: underline;
+}
+
 
 .carousel-item {
     height: 250px;
@@ -143,11 +165,19 @@ a{
     top: 50%;
     transform: translateY(-50%);
 }
+
+
 .carousel-control-prev {
     left: -10px;
 }
+
+
 .carousel-control-next {
     right: -10px;
+}
+
+.about{
+    padding: 40px;
 }
 
 p{
@@ -167,11 +197,27 @@ p{
     padding: 10px;
 }
 
+.copy{
+    font-size: 10px;
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
 @media (max-width: 912px) {
     .ContactCard{
         font-size: 18px;
     }
+
 }
+
+@media (max-width: 991px){ 
+        .OpeningHeader{
+        height: 92px;
+}
+}
+
+
+
 
 @media (max-width: 768px) {
     .tag{
