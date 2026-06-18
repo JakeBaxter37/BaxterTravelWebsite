@@ -229,8 +229,8 @@ p{
 
 @media (max-width: 620px) {
     .stars{
-        height: 45%;
-        width: 45%;
+        height: 40%;
+        width: 40%;
     }
         .carousel-control-prev ,.carousel-control-next{
         width: 6%;
