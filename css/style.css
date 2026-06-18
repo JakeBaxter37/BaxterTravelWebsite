@@ -248,5 +248,9 @@ p{
         .carousel-control-prev ,.carousel-control-next{
         width: 7%;
     }
+        .stars{
+        height: 30%;
+        width: 30%;
+    }
 }
 
