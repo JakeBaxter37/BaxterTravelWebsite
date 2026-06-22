@@ -75,18 +75,19 @@ body {
 }
 
 .NavButton{
-    background-color: #ead499;
+    background-color: #2F6F73;
+    color: white;
     font-size: 18px;
 	font-weight: bold;
     padding: 10px;
     margin: 10px;
-    color: #000000;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
     transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .NavButton:hover {
-	background-color: #ead499;
+	background-color: #3c8e94;
+    color: white;
 	transform: translateY(-4px);
 	box-shadow: 0 6px 15px #000000;
 }
@@ -110,7 +111,10 @@ body {
 	transform: translateY(-7px);
 }
 
-
+.ABTA{
+    width: 50%;
+    height: 50%;
+}
 
 .ContactCardHeader{
     background-color: #f1e4bf;
